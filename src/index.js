@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 // Create a react component
 const App =  () => {
     return (
-        <div>
+        <div style={{backgroundColor: 'lightyellow'}}>
             <h1 style={{backgroundColor: 'grey', color: 'rebeccapurple'}}>Hello React!</h1>
             <label class="label" for="name">Enter name:</label>
             <input id="name" type="text"/>
